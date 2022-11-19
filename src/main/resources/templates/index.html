@@ -20,6 +20,9 @@
     <td th:text="${wordStat.index + 1}">Index</td>
     <td th:text="${word}">A word</td>
 </tr>
+<tr th:each="word : ${initList}">
+    <td th:text="${word}">A word</td>
+</tr>
 </tbody>
 </table>
 
